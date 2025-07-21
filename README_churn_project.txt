@@ -5,12 +5,12 @@ This project focuses on predicting customer churn for a SaaS-based CRM product u
 
 ---
 
-## 📌 Project Objective
+## Project Objective
 To identify which customers are likely to churn (i.e., not renew their subscription) based on their activity and account-related features.
 
 ---
 
-## 📊 Dataset Summary
+## Dataset Summary
 The dataset includes key user and behavioral features:
 
 - `CustomerID`, `SignupDate`, `LastLoginDate`, `AccountAgeDays`
@@ -25,7 +25,7 @@ Some logic was applied during data generation:
 
 ---
 
-## 🧹 Data Preparation
+##  Data Preparation
 - Transformed `LastLoginDaysAgo` into actual `LastLoginDate`
 - Calculated aggregated values for login, invoice, and opportunity history
 - Cleaned and encoded categorical variables
@@ -33,7 +33,7 @@ Some logic was applied during data generation:
 
 ---
 
-## 📈 Exploratory Analysis
+##  Exploratory Analysis
 I performed initial analysis using:
 - Histograms, scatter plots, box plots
 - Correlation matrix (heatmap)
@@ -41,7 +41,7 @@ I performed initial analysis using:
 
 ---
 
-## 🤖 Models I Tested
+## Models I Tested
 I trained and evaluated the following models:
 
 ### 1. Logistic Regression
@@ -58,12 +58,12 @@ I trained and evaluated the following models:
 
 ---
 
-## ✅ Final Decision
+## Final Decision
 I chose **Logistic Regression** as the final model due to its high accuracy and simplicity. Despite testing more complex models, this one gave the most stable and interpretable results on this dataset.
 
 ---
 
-## 📁 Files in This Repo
+## Files in This Repo
 ├── churn_dataset_raw_realistic.csv     # The synthetic dataset
 ├── LR.py                               # Logistic Regression implementation
 ├── XGBoost.py                          # XGBoost model
@@ -72,7 +72,7 @@ I chose **Logistic Regression** as the final model due to its high accuracy and 
 
 ---
 
-## 🛠️ Tools Used
+## Tools Used
 - Python
 - pandas, numpy
 - matplotlib, seaborn
@@ -81,21 +81,21 @@ I chose **Logistic Regression** as the final model due to its high accuracy and 
 
 ---
 
-## 🧠 What I Learned
+## What I Learned
 - Good data matters more than complex models
 - Feature engineering based on domain logic pays off
 - Model interpretability helps when communicating with non-technical stakeholders
 
 ---
 
-## 🚀 Next Steps
+##  Next Steps
 - Try more real-world datasets
 - Explore cost-sensitive churn modeling
 - Deploy this project using Streamlit or Flask
 
 ---
 
-## 👩‍💻 Author
+
 Pegah Kashani
 
 ---
